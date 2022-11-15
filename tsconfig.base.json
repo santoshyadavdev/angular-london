@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@angular-london/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@angular-london/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@angular-london/state": ["libs/state/src/index.ts"],
+      "@angular-london/ui": ["libs/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
